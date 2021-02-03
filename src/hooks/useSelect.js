@@ -4,6 +4,7 @@ const useSelect = (stateInicial, opciones) => {
 
     //state del csutom hook
     const [ state, actualizarState ] = useState('');
+    //console.log(state);
     
     const SelectNoticias = () => (
         <select
